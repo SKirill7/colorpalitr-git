@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width">
+<title>CSS Selector</title>
+<link rel="stylesheet" href='style.css'>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>	
+		<body>
+			<div class="container">
+						<div class="block1">			
+							<p>	Вверхний левый угол:
+								<input type="range" id="rtl" min="0" max="100" value="0" oninput="fun1()">
+								<input type="text" id="ttl" value="0">
+							</p>
+							<p>	Вверхний правый угол:
+								<input type="range" id="rtr" min="0" max="100" value="0" oninput="fun1()">
+								<input type="text" id="ttr" value="0">
+							</p>
+							<p>	Нижний правый угол:
+								<input type="range" id="rbr" min="0" max="100" value="0" oninput="fun1()">
+								<input type="text" id="tbr" value="0">
+							</p>				
+							<p>	Нижний левый угол:
+								<input type="range" id="rbl" min="0" max="100" value="0" oninput="fun1()">
+								<input type="text" id="tbl" value="0">
+							</p>
+						</div>
+						<div class="block2">
+							<p class="red">	(R)-Red:
+								<input type="range" id="rr" min="0" max="255" value="0">
+								<input type="text" id="tr" value="0">
+							</p>
+							<p class="green">	(G)-Green:		
+								<input type="range" id="rg" min="0" max="255" value="0" >
+								<input type="text" id="tg" value="0">
+							</p>
+							<p class="blue">	(B)-Blue:
+								<input type="range" id="rb" min="0" max="255" value="0">
+								<input type="text" id="tb" value="0">
+							</p>
+						</div>
+					</div>
+						<div class="block3" id="block"></div>
+						<script src="script.js"></script>
+		</body>
+</html>
